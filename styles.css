@@ -1,0 +1,53 @@
+@media screen and (orientation: landscape) {
+#hor {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    object-fit: cover;
+}
+
+}
+
+
+@media screen and (orientation:portrait) {
+   #hor {
+    width: 600px;
+    height: 900px;
+    display: flex;
+    object-fit: cover;
+    }   
+
+}
+div {
+
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    margin: auto;
+}
+
+img {
+    object-fit: cover;
+}
+
+picture {
+
+
+
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+    
+}
